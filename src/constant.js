@@ -1,1 +1,1 @@
-export const API_URL='http://craftculturebackend-production.up.railway.app';
+export const API_URL='https://craftculturebackend-production.up.railway.app';
