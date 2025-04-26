@@ -1,1 +1,1 @@
-export const API_URL='http://localhost:5000';
+export const API_URL='http://craftculturebackend-production.up.railway.app';
