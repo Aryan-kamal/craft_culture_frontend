@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="d-flex justify-content-center gap-4">
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/engineersurajsahani/"
+            href="https://www.linkedin.com/in/aryan-kamal-934370234/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
@@ -20,57 +20,46 @@ const Footer = () => {
           </a>
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/engineersurajsahani"
+            href="https://www.instagram.com/aryan_kamal07/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
           >
             <i className="fab fa-instagram fa-lg"></i>
           </a>
-          {/* Facebook */}
+          {/* GitHub */}
           <a
-            href="https://www.facebook.com/profile.php?id=100077668355471&mibextid=ZbWKwL"
+            href="https://github.com/Aryan-kamal"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
           >
-            <i className="fab fa-facebook fa-lg"></i>
+            <i className="fab fa-github fa-lg"></i>
           </a>
-          {/* LeetCode */}
+          {/* Email */}
           <a
-            href="https://leetcode.com/u/surajsahani9321/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:kamalaryann1234567@gmail.com"
             className="text-white"
           >
-            <i className="fas fa-code fa-lg"></i>
+            <i className="fas fa-envelope fa-lg"></i>
           </a>
-          {/* HackerRank */}
+          {/* GFG */}
           <a
-            href="https://www.hackerrank.com/profile/radhashyam9321"
+            href="https://www.geeksforgeeks.org/user/aryan_kamal07/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
           >
             <i className="fas fa-terminal fa-lg"></i>
           </a>
-          {/* CodeChef */}
+          {/* Codolio */}
           <a
-            href="https://www.codechef.com/users/technicalsuraj"
+            href="https://codolio.com/profile/sDwTAR05"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
           >
-            <i className="fas fa-utensils fa-lg"></i>
-          </a>
-          {/* Coding Ninjas */}
-          <a
-            href="https://www.naukri.com/code360/profile/techsurajsahani"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white"
-          >
-            <i className="fas fa-graduation-cap fa-lg"></i>
+            <i className="fas fa-user-circle fa-lg"></i>
           </a>
         </div>
       </div>
