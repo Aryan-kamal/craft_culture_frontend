@@ -1,0 +1,169 @@
+|   .gitignore
+|   package-lock.json
+|   package.json
+|   README.md
+|   tree.txt
+|   
++---build
+|   |   asset-manifest.json
+|   |   favicon.ico
+|   |   index.html
+|   |   logo192.png
+|   |   logo512.png
+|   |   manifest.json
+|   |   robots.txt
+|   |   
+|   +---images
+|   |   |   about.jpeg
+|   |   |   donate.png
+|   |   |   home.png
+|   |   |   parallex.png
+|   |   |   
+|   |   +---company
+|   |   |       call_center_1.webp
+|   |   |       call_center_2.webp
+|   |   |       content_creation_1.jpg
+|   |   |       content_creation_2.webp
+|   |   |       data_center_1.jpg
+|   |   |       data_center_2.jpg
+|   |   |       online_education_1.jpg
+|   |   |       online_education_2.jpg
+|   |   |       
+|   |   \---products
+|   |       +---Bag
+|   |       |       bag1.jpeg to 16
+|   |       |       
+|   |       +---BottleArt
+|   |       |       bottleart1.jpeg to 15
+|   |       |       
+|   |       +---Diyas
+|   |       |       diya1.jpeg to 10
+|   |       |       
+|   |       +---Frames
+|   |       |       frame1.jpeg to 10
+|   |       |       
+|   |       +---Jewellery
+|   |       |       jewellery1.jpeg to 18
+|   |       |       
+|   |       +---PenStand
+|   |       |       penstand1.jpeg to 8
+|   |       |       
+|   |       \---WallHanging
+|   |               wallhanging1.jpeg to 12
+|   |               
+|   \---static
+|       +---css
+|       |       main.bd34fc57.css
+|       |       main.bd34fc57.css.map
+|       |       
+|       +---js
+|       |       488.1791747d.chunk.js
+|       |       488.1791747d.chunk.js.map
+|       |       main.0edb976d.js
+|       |       main.0edb976d.js.LICENSE.txt
+|       |       main.0edb976d.js.map
+|       |       
+|       \---media
+|               donate.2a12c22b0b8e2bdbbb7b.png
+|               parallex.ce0344f51642c0c52644.png
+|        
++---public
+|   |   favicon.ico
+|   |   index.html
+|   |   logo192.png
+|   |   logo512.png
+|   |   manifest.json
+|   |   robots.txt
+|   |   
+|   \---images
+|       |   about.jpeg
+|       |   donate.png
+|       |   home.png
+|       |   parallex.png
+|       |   
+|       +---company
+|       |       call_center_1.webp
+|       |       call_center_2.webp
+|       |       content_creation_1.jpg
+|       |       content_creation_2.webp
+|       |       data_center_1.jpg
+|       |       data_center_2.jpg
+|       |       online_education_1.jpg
+|       |       online_education_2.jpg
+|       |       
+|       \---products
+|           +---Bag
+|           |       bag1.jpeg to 16
+|           |       
+|           +---BottleArt
+|           |       bottleart1.jpeg to 15
+|           |       
+|           +---Diyas
+|           |       diya1.jpeg to 10
+|           |       
+|           +---Frames
+|           |       frame1.jpeg to 10
+|           |       
+|           +---Jewellery
+|           |       jewellery1.jpeg to 18
+|           |       
+|           +---PenStand
+|           |       penstand1.jpeg to 8
+|           |       
+|           \---WallHanging
+|                   wallhanging1.jpeg to 13
+|                   
+\---src
+    |   App.css
+    |   App.js
+    |   App.test.js
+    |   constant.js
+    |   index.css
+    |   index.js
+    |   logo.svg
+    |   reportWebVitals.js
+    |   setupTests.js
+    |   
+    +---components
+    |   |   ApplyFormForJob.jsx
+    |   |   Cart.jsx
+    |   |   Checkout.jsx
+    |   |   Company.jsx
+    |   |   Donate.jsx
+    |   |   DonateMoney.jsx
+    |   |   DonateProduct.jsx
+    |   |   Feedback.jsx
+    |   |   Footer.jsx
+    |   |   Header.jsx
+    |   |   Home.jsx
+    |   |   Job.jsx
+    |   |   Login.jsx
+    |   |   Order.jsx
+    |   |   OrderBill.jsx
+    |   |   OurStory.jsx
+    |   |   Product.jsx
+    |   |   Register.jsx
+    |   |   
+    |   \---admin
+    |           AdminApplicants.jsx
+    |           AdminCompanies.jsx
+    |           AdminDashboard.jsx
+    |           AdminDonations.jsx
+    |           AdminJobs.jsx
+    |           AdminLayout.jsx
+    |           AdminOrders.jsx
+    |           AdminProducts.jsx
+    |           adminRoutes.jsx
+    |           AdminUsers.jsx
+    |           CRUDTable.jsx
+    |           
+    \---css
+            Donate.css
+            DonateMoney.css
+            DonateProduct.css
+            Feedback.css
+            Home.css
+            Login.css
+            Order.css
+            OurStory.css
+            Register.css
