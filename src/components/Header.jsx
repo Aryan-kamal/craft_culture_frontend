@@ -6,14 +6,14 @@ const Header = () => {
   const [username, setUsername] = useState("");
   const navigate = useNavigate();
 
-  useEffect(() => {
+  useEffect(() => { 
     const token = localStorage.getItem("token");
     const storedUsername = localStorage.getItem("username");
     if (token) {
       setIsLoggedIn(true);
       setUsername(storedUsername);
     }
-  }, []);
+  }, []); // this fn runs once when the component mounts
 
   const handleLogout = () => {
     localStorage.removeItem("token");
