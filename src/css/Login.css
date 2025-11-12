@@ -432,3 +432,26 @@
 .admin-login-button:hover {
 	background: linear-gradient(90deg, #4a00e0, #8e2de2);
 }
+
+.toast-container {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 2000;
+}
+
+.custom-toast.success {
+	background: #28a745;
+	color: #fff;
+	padding: 12px 18px;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: 500;
+}
+
+.toast-content i {
+	font-size: 18px;
+}
